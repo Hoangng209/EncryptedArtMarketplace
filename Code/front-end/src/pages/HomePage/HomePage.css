@@ -1,0 +1,14 @@
+.home-container {
+  background: linear-gradient(135deg, #121212 0%, #1e1e2a 100%);
+  min-height: 100vh;
+  color: #ffffff;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure content doesn't get too close to the rounded edges */
+.home-container > * {
+  padding: 0 1rem;
+}

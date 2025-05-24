@@ -1,0 +1,312 @@
+
+.bids-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 24px;
+  box-sizing: border-box;
+}
+  
+  .bids-container-text h1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
+  
+  .bids-container-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+  padding: 0;
+  justify-content: space-between;
+}
+  
+  .bids-container-card:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card-row-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  margin: 0 -10px;
+}
+  
+  .card-column {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+  
+  .bids-card {
+  background: #1A1A1A;
+  border-radius: 12px;
+  padding: 12px;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #2A2A2A;
+  position: relative;
+}
+
+.bids-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+  
+  .bids-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: all 0.2s ease;
+}
+  
+  .bids-card-content {
+  padding: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bids-card-top {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.bids-card-top .nft-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+}
+
+.bids-card-top .nft-collection {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8A8A8A;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+  
+  .bids-card-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 0;
+  border: none;
+  width: 100%;
+}
+  
+  .bids-card-bottom p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.bids-card-bottom .price-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.bids-card-bottom .price-label {
+  color: #8A8A8A;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.bids-card-bottom .price {
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bids-card-bottom .price-eth {
+  color: #8A8A8A;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.bids-card-bottom .like-button {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.bids-card-bottom .like-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.like-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2A2A2A;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.like-button:hover {
+  background: #333;
+  transform: scale(1.1);
+}
+
+.nft-link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+/* Hover effects */
+.bids-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bids-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+  
+  .bids-card-bottom p:last-child{
+  font-weight: normal;
+  }
+  
+  .bids-card-bottom span{
+  font-weight: normal;
+  }
+  
+  .load-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .load-more button{
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    margin: 0 1rem;
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 10px 100px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .photo {
+    height: 200px;
+    width: 200px;
+  }
+  
+@media screen and (max-width: 1200px) {
+  .bids-container-card {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bids-container-card {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bids-container-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bids-container-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 1rem 10px !important;
+  }
+  
+  .bids-container-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .bids-card {
+    padding: 10px;
+  }
+    .bids-card-top p{
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 5px;
+    }
+    .bids-card-bottom p{
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .bids-container{
+      width: 100%;
+    }
+  }
+  

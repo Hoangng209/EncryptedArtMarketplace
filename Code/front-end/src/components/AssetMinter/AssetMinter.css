@@ -1,0 +1,465 @@
+
+.bids-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.bids-container-text h1{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.bids-container-text h6{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.bids-container-text a h6 hover{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1px;
+  color: #696969;
+  text-align: center;
+  background-color: yellow;
+}
+
+.bids-container-card{
+  margin: 0 -5px;
+  text-align: center;
+}
+.bids-container-card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-row-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-column{
+  width: 20%;
+}
+.bids-card{
+  background: #2A2D3A;
+  border-radius: 20px;
+  padding: 11px 12px 19px 11px;
+  margin-inline: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bids-card img{
+  border-radius: 20px;
+  width: 100%;
+}
+.bids-card-top p{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.bids-card-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.bids-card-bottom p{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* text-align: right; */
+color: #FFFFFF;
+}
+.bids-card-bottom p:last-child{
+font-weight: normal;
+
+}
+.bids-card-bottom span{
+font-weight: normal;
+}
+.load-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+/* NFT Card Layout */
+.nft-card {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: rgba(42, 45, 58, 0.7);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .nft-card {
+    flex-direction: column;
+  }
+}
+
+.nft-card-image {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-card-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+
+.nft-card-content {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nft-card-content h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+
+.nft-card-content p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.nft-card-actions {
+  margin-top: auto;
+}
+
+.nft-actions {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* Explorer Button */
+.explorer-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, #EB1484, #C81CC5);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(200, 28, 197, 0.4);
+  white-space: nowrap;
+}
+
+.explorer-button:hover {
+  background: linear-gradient(135deg, #C81CC5, #EB1484);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(200, 28, 197, 0.6);
+}
+
+/* Mint Button */
+.mint-button {
+  padding: 0.8rem 2rem;
+  background: transparent;
+  color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mint-button:hover {
+  background: rgba(235, 20, 132, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(235, 20, 132, 0.2);
+}
+
+.load-more button{
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  margin: 0 1rem;
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 10px 100px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.load-more button:disabled,
+button[disabled]{
+  background: transparent;
+  border: 1px solid grey;
+  margin: 0 1rem;
+  color: grey;
+  border-radius: 10px;
+  padding: 10px 100px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.load-more button:hover{
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  margin: 0 1rem;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 100px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* Form styles */
+.mint-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #2A2D3A;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: #1E2029;
+  color: #FFFFFF;
+  font-family: var(--font-family);
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus, .form-textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.form-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.upload-area {
+  border: 2px dashed #444;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: #1E2029;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-area:hover {
+  border-color: var(--primary-color);
+}
+
+.upload-placeholder {
+  color: #888;
+  font-family: var(--font-family);
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.file-hint {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #888;
+  text-align: left;
+}
+
+.mint-button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.mint-button:hover:not(:disabled) {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.mint-button:disabled {
+  background: #444;
+  color: #888;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* Progress bar styles */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #1E2029;
+  border-radius: 10px;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  transition: width 0.3s ease;
+}
+
+/* Wallet notice */
+.wallet-notice {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: rgba(255, 213, 0, 0.1);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.wallet-notice p {
+  margin: 0;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mint-form {
+    padding: 1rem;
+  }
+  
+  .upload-area {
+    min-height: 150px;
+    padding: 1rem;
+  }
+  
+  .mint-button {
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .card-column {
+    width: 25%;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .card-column {
+    width: 33.33%;
+    
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-column {
+    width: 50%;
+    
+  }
+}
+@media screen and (max-width: 550px) {
+  .section__padding{
+    padding: 2rem 14px !important;
+  }
+  .bids-card{
+    margin-bottom: 10px;
+    margin-inline: 5px;
+  }
+  .bids-card-top p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+  }
+  .bids-card-bottom p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .bids-container{
+    width: 100%;
+  }
+
+ 
+}
+
