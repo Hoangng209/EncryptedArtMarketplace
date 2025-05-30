@@ -79,5 +79,4 @@ This project leverages blockchain technology to ensure secure transactions and o
    sui client call --package <yourpackageid> --module marketplace --function create --type-args 0x2::sui::SUI --gas-budget 100000000 
 
 
-
 [⬆️ Back to top](#table-of-contents)
