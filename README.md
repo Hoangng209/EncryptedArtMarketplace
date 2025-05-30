@@ -70,13 +70,14 @@ This project leverages blockchain technology to ensure secure transactions and o
    ```bash
    npm install
 
-4.**Publish package**
+4. **Publish package**
    ```bash
    sui client publish --gas-budget 5000000
 
-5.**Pulish marketplace package**
+5. **Pulish marketplace package**
    ```bash
    sui client call --package <yourpackageid> --module marketplace --function create --type-args 0x2::sui::SUI --gas-budget 100000000 
+
 
 
 [⬆️ Back to top](#table-of-contents)
