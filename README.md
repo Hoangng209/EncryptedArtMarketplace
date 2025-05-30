@@ -1,5 +1,4 @@
 <h1 align="center">ENCRYPTEDARTMARKETPLACE</h1>
-<hr/>
 <p align="center"><em>Empowering Artists, Securing Digital Art Ownership</em></p>
   <!-- Badges -->
   <br/><br/>
@@ -19,6 +18,7 @@
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router"/>
 </p>
 </p>
+
 ---
 
 ## Table of Contents
