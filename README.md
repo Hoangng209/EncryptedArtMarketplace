@@ -1,12 +1,6 @@
 # EncryptedArtMarketplace
 # ENCRYPTEDARTMARKETPLACE  
 *Empowering Artists, Securing Digital Art Ownership*
-
-[![GitHub stars](https://img.shields.io/github/stars/Hoangng289/EncryptedArtMarketplace?style=social)](https://github.com/Hoangng289/EncryptedArtMarketplace/stargazers)  
-[![Last Commit](https://img.shields.io/github/last-commit/Hoangng289/EncryptedArtMarketplace)](https://github.com/Hoangng289/EncryptedArtMarketplace/commits/main)  
-[![License](https://img.shields.io/github/license/Hoangng289/EncryptedArtMarketplace)](LICENSE)  
-![Top Language](https://img.shields.io/github/languages/top/Hoangng289/EncryptedArtMarketplace)
-
 ---
 
 ## Built with the tools and technologies:
@@ -22,7 +16,6 @@
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)]  
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)]  
 [![Sanity](https://img.shields.io/badge/Sanity-000000?style=flat)]  
-[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=flat&logo=openai&logoColor=white)]  
 [![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat&logo=githubactions&logoColor=white)]  
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=reactrouter&logoColor=white)]
 
@@ -67,6 +60,15 @@ This project leverages blockchain technology to ensure secure transactions and o
 ### Installation
 
 1. **Clone the repository:**
-
    ```bash
    git clone https://github.com/Hoangng289/EncryptedArtMarketplace.git
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd EncryptedArtMarketplace
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+
+[⬆️ Back to top](#table-of-contents)
