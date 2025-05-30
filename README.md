@@ -1,11 +1,10 @@
 <p align="center">
   <h1 align="center">ENCRYPTEDARTMARKETPLACE</h1>
-  <em>Empowering Artists, Securing Digital Art Ownership</em>
+  <em align="center">Empowering Artists, Securing Digital Art Ownership</em>
   <br/><br/>
   <!-- Badges -->
   <br/><br/>
-  <strong align="center">Built with the tools and technologies:</strong>
-  <br/><br/>
+ <p align="center">
   <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
   <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON"/>
   <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/>
@@ -20,6 +19,7 @@
   <img src="https://img.shields.io/badge/OpenAI-000000?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router"/>
+</p>
 </p>
 ---
 
