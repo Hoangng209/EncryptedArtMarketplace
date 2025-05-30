@@ -1,24 +1,35 @@
-# EncryptedArtMarketplace
-# ENCRYPTEDARTMARKETPLACE  
-*Empowering Artists, Securing Digital Art Ownership*
----
-
-## Built with the tools and technologies:
-
-[![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)]  
-[![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)]  
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)]  
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)]  
-[![TOML](https://img.shields.io/badge/TOML-000000?style=flat)]  
-[![dotenv](https://img.shields.io/badge/dotenv-000000?style=flat&logo=dotenv&logoColor=white)]  
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)]  
-[![React Bootstrap](https://img.shields.io/badge/React_Bootstrap-563D7C?style=flat&logo=react&logoColor=white)]  
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)]  
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)]  
-[![Sanity](https://img.shields.io/badge/Sanity-000000?style=flat)]  
-[![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat&logo=githubactions&logoColor=white)]  
-[![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=reactrouter&logoColor=white)]
-
+<p align="center">
+  <h1 align="center">ENCRYPTEDARTMARKETPLACE</h1>
+  <em>Empowering Artists, Securing Digital Art Ownership</em>
+  <br/><br/>
+  <!-- Badges -->
+  <a href="https://github.com/Hoangng289/EncryptedArtMarketplace/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Hoangng289/EncryptedArtMarketplace.svg?style=flat-square" alt="last commit"/>
+  </a>
+  <a href="https://github.com/Hoangng289/EncryptedArtMarketplace/search?l=javascript">
+    <img src="https://img.shields.io/github/languages/top/Hoangng289/EncryptedArtMarketplace.svg?style=flat-square&color=F1E05A" alt="javascript"/>
+  </a>
+  <a href="https://github.com/Hoangng289/EncryptedArtMarketplace/search?l=html">
+    <img src="https://img.shields.io/github/languages/count/Hoangng289/EncryptedArtMarketplace.svg?style=flat-square" alt="languages"/>
+  </a>
+  <br/><br/>
+  <strong>Built with the tools and technologies:</strong>
+  <br/><br/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON"/>
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/>
+  <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm"/>
+  <img src="https://img.shields.io/badge/TOML-000000?style=flat-square" alt="TOML"/>
+  <img src="https://img.shields.io/badge/dotenv-000000?style=flat-square&logo=dotenv&logoColor=white" alt="dotenv"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React_Bootstrap-563D7C?style=flat-square&logo=react&logoColor=white" alt="React Bootstrap"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Sanity-000000?style=flat-square" alt="Sanity"/>
+  <img src="https://img.shields.io/badge/OpenAI-000000?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router"/>
+</p>
 ---
 
 ## Table of Contents
@@ -27,8 +38,7 @@
 - [Getting Started](#getting-started)  
   - [Prerequisites](#prerequisites)  
   - [Installation](#installation)  
-  - [Usage](#usage)  
-  - [Testing](#testing)  
+
 
 ---
 
